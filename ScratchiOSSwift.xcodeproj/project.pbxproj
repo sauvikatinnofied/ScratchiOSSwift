@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45B21C5219E4FE9A0056B87D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B21C5119E4FE9A0056B87D /* AppDelegate.swift */; };
+		45B21C5419E4FE9A0056B87D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B21C5319E4FE9A0056B87D /* ViewController.swift */; };
+		45B21C5719E4FE9A0056B87D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45B21C5519E4FE9A0056B87D /* Main.storyboard */; };
+		45B21C5919E4FE9A0056B87D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45B21C5819E4FE9A0056B87D /* Images.xcassets */; };
+		45B21C5C19E4FE9A0056B87D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45B21C5A19E4FE9A0056B87D /* LaunchScreen.xib */; };
+		45B21C6819E4FE9A0056B87D /* ScratchiOSSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B21C6719E4FE9A0056B87D /* ScratchiOSSwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45B21C6219E4FE9A0056B87D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45B21C4419E4FE990056B87D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45B21C4B19E4FE9A0056B87D;
+			remoteInfo = ScratchiOSSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45B21C4C19E4FE9A0056B87D /* ScratchiOSSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScratchiOSSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B21C5019E4FE9A0056B87D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45B21C5119E4FE9A0056B87D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45B21C5319E4FE9A0056B87D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45B21C5619E4FE9A0056B87D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45B21C5819E4FE9A0056B87D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		45B21C5B19E4FE9A0056B87D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		45B21C6119E4FE9A0056B87D /* ScratchiOSSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScratchiOSSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B21C6619E4FE9A0056B87D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45B21C6719E4FE9A0056B87D /* ScratchiOSSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchiOSSwiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45B21C4919E4FE9A0056B87D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45B21C5E19E4FE9A0056B87D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45B21C4319E4FE990056B87D = {
+			isa = PBXGroup;
+			children = (
+				45B21C4E19E4FE9A0056B87D /* ScratchiOSSwift */,
+				45B21C6419E4FE9A0056B87D /* ScratchiOSSwiftTests */,
+				45B21C4D19E4FE9A0056B87D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45B21C4D19E4FE9A0056B87D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45B21C4C19E4FE9A0056B87D /* ScratchiOSSwift.app */,
+				45B21C6119E4FE9A0056B87D /* ScratchiOSSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45B21C4E19E4FE9A0056B87D /* ScratchiOSSwift */ = {
+			isa = PBXGroup;
+			children = (
+				45B21C5119E4FE9A0056B87D /* AppDelegate.swift */,
+				45B21C5319E4FE9A0056B87D /* ViewController.swift */,
+				45B21C5519E4FE9A0056B87D /* Main.storyboard */,
+				45B21C5819E4FE9A0056B87D /* Images.xcassets */,
+				45B21C5A19E4FE9A0056B87D /* LaunchScreen.xib */,
+				45B21C4F19E4FE9A0056B87D /* Supporting Files */,
+			);
+			path = ScratchiOSSwift;
+			sourceTree = "<group>";
+		};
+		45B21C4F19E4FE9A0056B87D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45B21C5019E4FE9A0056B87D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45B21C6419E4FE9A0056B87D /* ScratchiOSSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				45B21C6719E4FE9A0056B87D /* ScratchiOSSwiftTests.swift */,
+				45B21C6519E4FE9A0056B87D /* Supporting Files */,
+			);
+			path = ScratchiOSSwiftTests;
+			sourceTree = "<group>";
+		};
+		45B21C6519E4FE9A0056B87D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45B21C6619E4FE9A0056B87D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45B21C4B19E4FE9A0056B87D /* ScratchiOSSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45B21C6B19E4FE9A0056B87D /* Build configuration list for PBXNativeTarget "ScratchiOSSwift" */;
+			buildPhases = (
+				45B21C4819E4FE9A0056B87D /* Sources */,
+				45B21C4919E4FE9A0056B87D /* Frameworks */,
+				45B21C4A19E4FE9A0056B87D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScratchiOSSwift;
+			productName = ScratchiOSSwift;
+			productReference = 45B21C4C19E4FE9A0056B87D /* ScratchiOSSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45B21C6019E4FE9A0056B87D /* ScratchiOSSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45B21C6E19E4FE9A0056B87D /* Build configuration list for PBXNativeTarget "ScratchiOSSwiftTests" */;
+			buildPhases = (
+				45B21C5D19E4FE9A0056B87D /* Sources */,
+				45B21C5E19E4FE9A0056B87D /* Frameworks */,
+				45B21C5F19E4FE9A0056B87D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45B21C6319E4FE9A0056B87D /* PBXTargetDependency */,
+			);
+			name = ScratchiOSSwiftTests;
+			productName = ScratchiOSSwiftTests;
+			productReference = 45B21C6119E4FE9A0056B87D /* ScratchiOSSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45B21C4419E4FE990056B87D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Innofied Solution Pvt. Ltd.";
+				TargetAttributes = {
+					45B21C4B19E4FE9A0056B87D = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					45B21C6019E4FE9A0056B87D = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 45B21C4B19E4FE9A0056B87D;
+					};
+				};
+			};
+			buildConfigurationList = 45B21C4719E4FE990056B87D /* Build configuration list for PBXProject "ScratchiOSSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45B21C4319E4FE990056B87D;
+			productRefGroup = 45B21C4D19E4FE9A0056B87D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45B21C4B19E4FE9A0056B87D /* ScratchiOSSwift */,
+				45B21C6019E4FE9A0056B87D /* ScratchiOSSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45B21C4A19E4FE9A0056B87D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B21C5719E4FE9A0056B87D /* Main.storyboard in Resources */,
+				45B21C5C19E4FE9A0056B87D /* LaunchScreen.xib in Resources */,
+				45B21C5919E4FE9A0056B87D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45B21C5F19E4FE9A0056B87D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45B21C4819E4FE9A0056B87D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B21C5419E4FE9A0056B87D /* ViewController.swift in Sources */,
+				45B21C5219E4FE9A0056B87D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45B21C5D19E4FE9A0056B87D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B21C6819E4FE9A0056B87D /* ScratchiOSSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45B21C6319E4FE9A0056B87D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45B21C4B19E4FE9A0056B87D /* ScratchiOSSwift */;
+			targetProxy = 45B21C6219E4FE9A0056B87D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45B21C5519E4FE9A0056B87D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45B21C5619E4FE9A0056B87D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45B21C5A19E4FE9A0056B87D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45B21C5B19E4FE9A0056B87D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45B21C6919E4FE9A0056B87D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45B21C6A19E4FE9A0056B87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45B21C6C19E4FE9A0056B87D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScratchiOSSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		45B21C6D19E4FE9A0056B87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScratchiOSSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		45B21C6F19E4FE9A0056B87D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScratchiOSSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScratchiOSSwift.app/ScratchiOSSwift";
+			};
+			name = Debug;
+		};
+		45B21C7019E4FE9A0056B87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScratchiOSSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScratchiOSSwift.app/ScratchiOSSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45B21C4719E4FE990056B87D /* Build configuration list for PBXProject "ScratchiOSSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45B21C6919E4FE9A0056B87D /* Debug */,
+				45B21C6A19E4FE9A0056B87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45B21C6B19E4FE9A0056B87D /* Build configuration list for PBXNativeTarget "ScratchiOSSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45B21C6C19E4FE9A0056B87D /* Debug */,
+				45B21C6D19E4FE9A0056B87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45B21C6E19E4FE9A0056B87D /* Build configuration list for PBXNativeTarget "ScratchiOSSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45B21C6F19E4FE9A0056B87D /* Debug */,
+				45B21C7019E4FE9A0056B87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45B21C4419E4FE990056B87D /* Project object */;
+}
